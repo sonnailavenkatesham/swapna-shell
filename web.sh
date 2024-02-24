@@ -16,4 +16,6 @@ cd /usr/share/nginx/html
 
 unzip /tmp/web.zip
 
-cp roboshop.conf /etc/nginx/default.d/roboshop.conf
+cp /home/centos/swapna-shell/roboshop.conf /etc/nginx/default.d/roboshop.conf
+
+systemctl restart nginx 
