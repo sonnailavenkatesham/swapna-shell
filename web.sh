@@ -15,3 +15,5 @@ curl -o /tmp/web.zip https://roboshop-builds.s3.amazonaws.com/web.zip
 cd /usr/share/nginx/html
 
 unzip /tmp/web.zip
+
+cp roboshop.conf /etc/nginx/default.d/roboshop.conf
