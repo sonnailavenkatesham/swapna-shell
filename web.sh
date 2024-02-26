@@ -1,4 +1,5 @@
 #!/bin/bash
+DATE=$(date +%D-%T)
 
 yum install nginx -y
 
