@@ -1,7 +1,13 @@
 #!/bin/bash
 DATE=$(date +%D-%T)
 
+R="\[31m"
+G="\[32m"
+Y="\[33m"
+N="\[0m"
+
 yum install nginx -y
+echo -e "$G installed nginx $N"
 
 systemctl enable nginx
 
