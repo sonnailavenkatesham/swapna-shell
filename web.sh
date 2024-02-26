@@ -20,7 +20,7 @@ echo -e "$G default nginx page deleted $N"
 curl -o /tmp/web.zip https://roboshop-builds.s3.amazonaws.com/web.zip
 
 cd /usr/share/nginx/html
-echo -e "$G changed to html folder $N"
+echo -e "$G changed to html $N"
 unzip /tmp/web.zip
 echo -e "$G unziped web data $N"
 
